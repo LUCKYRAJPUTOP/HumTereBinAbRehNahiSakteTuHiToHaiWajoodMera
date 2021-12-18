@@ -1214,8 +1214,8 @@ async def y_play(playlist):
             Config.YSTREAM=True
             Config.YPLAY=False
             if Config.IS_LOOP:
-                Config.STREAM_URL="https://www.youtube.com/watch?v=zcrUCvBD16k"
-                LOGGER.info("Starting Default Live, 24 News")
+                Config.STREAM_URL="https://www.youtube.com/watch?v=jMmlGbDQosk"
+                LOGGER.info("Starting Default Live, Hindi Songs")
                 await start_stream()
             return False
         if Config.SHUFFLE:
@@ -1225,8 +1225,8 @@ async def y_play(playlist):
         Config.YSTREAM=True
         Config.YPLAY=False
         if Config.IS_LOOP:
-            Config.STREAM_URL="https://www.youtube.com/watch?v=zcrUCvBD16k"
-            LOGGER.info("Starting Default Live, 24 News")
+            Config.STREAM_URL="https://www.youtube.com/watch?v=jMmlGbDQosk"
+            LOGGER.info("Starting Default Live, Hindi Songs")
             await start_stream()
         return False
 
@@ -1303,8 +1303,8 @@ async def c_play(channel):
             LOGGER.warning(f"No files found in {chat.title}, Change filter settings if required. Current filters are {Config.FILTERS}")
             if Config.CPLAY:
                 Config.CPLAY=False
-                Config.STREAM_URL="https://www.youtube.com/watch?v=zcrUCvBD16k"
-                LOGGER.warning("Seems like cplay is set as STARTUP_STREAM, Since nothing found on {chat.title}, switching to 24 News as startup stream.")
+                Config.STREAM_URL="https://www.youtube.com/watch?v=jMmlGbDQosk"
+                LOGGER.warning("Seems like cplay is set as STARTUP_STREAM, Since nothing found on {chat.title}, switching to Hindi Songs as startup stream.")
                 Config.STREAM_SETUP=False
                 await sync_to_db()
                 return False, f"No files found on given channel, Please check your filters.\nCurrent filters are {Config.FILTERS}"
