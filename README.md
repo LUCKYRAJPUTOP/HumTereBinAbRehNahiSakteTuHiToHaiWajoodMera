@@ -1,10 +1,10 @@
 # VCPlayerBot
 
-![GitHub Repo stars](https://img.shields.io/github/stars/subinps/VCPlayerBot?color=blue&style=flat)
-![GitHub issues](https://img.shields.io/github/issues/subinps/VCPlayerBot)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/subinps/VCPlayerBot)
-![GitHub contributors](https://img.shields.io/github/contributors/subinps/VCPlayerBot?style=flat)
-![GitHub forks](https://img.shields.io/github/forks/subinps/VCPlayerBot?style=flat)
+![GitHub Repo stars](https://img.shields.io/github/stars/LUCKYRAJPUTOP/VCPlayerBot?color=blue&style=flat)
+![GitHub issues](https://img.shields.io/github/issues/LUCKYRAJPUTOP/VCPlayerBot)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/LUCKYRAJPUTOP/VCPlayerBot)
+![GitHub contributors](https://img.shields.io/github/contributors/LUCKYRAJPUTOP/VCPlayerBot?style=flat)
+![GitHub forks](https://img.shields.io/github/forks/LUCKYRAJPUTOP/VCPlayerBot?style=flat)
 
 Telegram bot to stream videos in telegram voicechat for both groups and channels. Supports live streams, YouTube videos and telegram media. With record stream support, Schedule streams, and many more.
 
@@ -57,13 +57,13 @@ Telegram bot to stream videos in telegram voicechat for both groups and channels
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LUCKYRAJPUTOP/VCPlayerBot)
 
 ## Deploy to Railway
-<p><a href=https://github.com/subinps/VCPlayerBot/issues/7> <img src="https://img.shields.io/badge/Deploy%20To%20Railway-blueviolet?style=for-the-badge&logo=railway" width="200""/></a></p>
+<p><a href=https://github.com/LUCKYRAJPUTOP/VCPlayerBot> <img src="https://img.shields.io/badge/Deploy%20To%20Railway-blueviolet?style=for-the-badge&logo=railway" width="200""/></a></p>
 
  
 ## Deploy to VPS
 
 ```sh
-git clone https://github.com/subinps/VCPlayerBot
+git clone https://github.com/LUCKYRAJPUTOP/VCPlayerBot
 cd VCPlayerBot
 pip3 install -r requirements.txt
 # <Create Variables appropriately (.env [optional])>
@@ -87,13 +87,6 @@ python3 main.py
 - Automatic restart even if heroku restarts. (Configurable)
 - Support exporting and importing playlist.
 
-### Note
-
-[Note To A So Called Dev](https://telegram.dog/subin_works/203): 
-
-Kanging this codes and and editing a few lines and releasing a V.x  or an [alpha](https://telegram.dog/subin_works/204), beta , gama branches of your repo wont make you a Developer.
-Fork the repo and edit as per your needs.
-
 ## LICENSE
 
 - [GNU General Public License](./LICENSE)
@@ -101,7 +94,7 @@ Fork the repo and edit as per your needs.
 
 ## CREDITS
 
-- [Laky-64](https://github.com/Laky-64) for [py-tgcalls](https://github.com/pytgcalls/pytgcalls)
+- [Lucky Rajput](https://github.com/LUCKYRAJPUTOP) for [py-tgcalls](https://github.com/pytgcalls/pytgcalls)
 - [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
 
 
