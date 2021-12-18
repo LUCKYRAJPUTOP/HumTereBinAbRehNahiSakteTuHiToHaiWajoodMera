@@ -2,7 +2,7 @@ echo "Cloning Repo...."
 if [ -z $BRANCH ]
 then
   echo "Cloning main branch...."
-  git clone https://github.com/subinps/VCPlayerBot /VCPlayerBot
+  git clone https://github.com/LUCKYRAJPUTOP/VCPlayerBot /VCPlayerBot
 else
   echo "Cloning $BRANCH branch...."
   git clone https://github.com/subinps/VCPlayerBot -b $BRANCH /VCPlayerBot
